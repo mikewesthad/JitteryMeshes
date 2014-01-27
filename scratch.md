@@ -26,9 +26,9 @@ Personal goals chapter:
     * Concept of recursion
     * Subdivide screen into smaller rectangles that change slowly along one of the HSB color dimensions
       * Examples in EvolvingColor_.png images
-      * Code makes use of: ofRect, ofRectangle, ofRandom and std::vector
-      * Using variables to define parameters 
-        * Parameter searching interactively using mouseX, mouseY and key presses
+      * ofRect, ofRectangle, ofRandom and std::vector
+    * Defining controllable parameters 
+      * Parameter searching interactively using mouseX, mouseY and key presses
 * __Extension:__ Documenting your work (part 1)
   * Static work, saving an image (PNG or PDF)
     * Workarounds to make ofSaveScreen() work with ofSetBackgroundAuto(false) using ofImage
@@ -50,31 +50,31 @@ Personal goals chapter:
     * Makes use of ofNoise for creating coherent rotation
   * Examples in CoordSystem_*.png images
 
-####Section 4: Complex Shapes
-  - Curve, beziers, and custom shape
-  - Teach in the context of a project with generative visuals, like:
-    - Cellular automata like Conway's Game of Life
-    - Dynamic brushes
-    - Using a movie or image to drive the creation of shapes
-    - Haven't quite pinned down the project for this section
-  - Documenting your work (part 2)
-    - Sometimes a gif doesn't cut it
-    - Saving a movie
-      - ofxVideoRecorder (doesn't work on windows, so I can only really link to it)
-      - For interactive works, 3rd party recording software
-      - For noninteractive works, creating a 'rendering' mode, saving frames and stiching them together using ffmpeg or openFrameworks
+####Section 4: The Other Shapes
+* __Intent:__ Finish off 2D graphics using curves, beziers, and custom shape
+* __Project:__ Not yet sure what will go here...
+ * Teach in the context of a project with generative visuals, like:
+  * Cellular automata like Conway's Game of Life
+  * Dynamic brushes
+  * Using a movie or image to drive the creation of shapes
+* __Extension:__ Documenting your work (part 1)
+ * Documenting your work (part 2)
+  * Sometimes a gif doesn't cut it, saving a movie
+   * ofxVideoRecorder (doesn't work on windows, so I can only really link to it)
+    * For interactive works, 3rd party recording software
+    * For noninteractive works, creating a 'rendering' mode, saving frames and stiching them together using ffmpeg or openFrameworks
 
 ####Section 5: Meshes
-  - This is pushing the limits of what can fit in a basics of graphics chapter, but I'd love to see some coverage of 3D basics and meshes in the book
-  - I could attempt to shorten up the generative mesh tutorial (http://openframeworks.cc/tutorials/graphics/generativemesh.html) and include it
-  - That would add:
-    - Basics of meshes
-      - Modes, indicies, vertices
-    - One way to think about creating a generative mesh
-      - Loading image, getting pixels, using them as source data
-      - Applying rules to the data to generate vertices and connections
-    - ofEasyCam to navigate
-    - How to handle the mesh to create simple animation and interactivity
+* This is pushing the limits of what can fit in a chapter, but I'd love to see coverage of 3D and meshes in the book...
+* __Intent:__ Jump into meshes, cameras, and thinking about ways to generate meshes
+* I could attempt to shorten up the [generative mesh tutorial](http://openframeworks.cc/tutorials/graphics/generativemesh.html) and include it:
+ * Basics of meshes
+  * Modes, indicies, vertices
+ * One way to think about creating a generative mesh
+  * Loading image, getting pixels, using them as source data
+  * Applying rules to the data to generate vertices and connections
+ * ofEasyCam to navigate
+ * How to handle the mesh to create simple animation and interactivity
 
 ####Section 6: Links to Addons and Where to Learn More
 * Addons
