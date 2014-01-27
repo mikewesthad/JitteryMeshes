@@ -23,6 +23,7 @@ Personal goals for chapter:
 * __Project:__ Explore the HSB way of thinking by making color compositions 
   * Explain the ways color can be specified (grayscale, RGB, RGBA, HSB)
   * Using HSB dimensions to generate color palettes
+    * Why not RGB?
     * Concept of recursion
     * Subdivide screen into smaller rectangles that change slowly along one of the HSB color dimensions
       * Examples images: [hue](https://github.com/openframeworks/ofBook/blob/master/20_intro_to_graphics/EvolvingColor_ChangingHue.png), [saturation](https://github.com/openframeworks/ofBook/blob/master/20_intro_to_graphics/EvolvingColor_ChangingSaturation.png), [brightness](https://github.com/openframeworks/ofBook/blob/master/20_intro_to_graphics/EvolvingColor_ChangingBrightness.png)
